@@ -19,7 +19,7 @@ export default function Welcome3Screen() {
       <TouchableOpacity
         style={styles.nextButton}
         onPress={() => {
-          router.push("/(auth)/index");
+          router.push("/(auth)/login");
         }}
       >
         <Text style={styles.nextButtonText}>SIGUIENTE</Text>
