@@ -50,7 +50,7 @@ const Login = () => {
       <TouchableOpacity
         onPress={() => {
           router.push("/(auth)/register");
-        }}npm run de
+        }}
       >
         <Text style={styles.subtitle}>Registrarse</Text>
       </TouchableOpacity>

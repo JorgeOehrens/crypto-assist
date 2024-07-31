@@ -34,6 +34,8 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(welcome)" options={{ headerShown: false }} />
         <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+        <Stack.Screen name="(user)" options={{ headerShown: false }} />
+
         <Stack.Screen name="+not-found" />
       </Stack>
     </ThemeProvider>
