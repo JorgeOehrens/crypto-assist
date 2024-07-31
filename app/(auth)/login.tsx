@@ -37,7 +37,12 @@ const Login = () => {
           value={password}
           onChangeText={setPassword}
         />
-        <TouchableOpacity style={styles.nextButton}>
+        <TouchableOpacity
+          style={styles.nextButton}
+          onPress={() => {
+            router.push("/(user)/home");
+          }}
+        >
           <Text style={styles.nextButtonText}>INICIAR SESIÓN</Text>
         </TouchableOpacity>
       </View>
