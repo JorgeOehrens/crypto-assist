@@ -54,7 +54,7 @@ export default function TabLayout() {
                     colors={["#F21CC8", "#FD9FEB"]}
                     style={styles.gradientBackground}
                   >
-                    <FontAwesome size={33} name="home" color="white" />
+                    <FontAwesome size={28} name="home" color="white" />
                   </LinearGradient>
                 ) : (
                   <FontAwesome size={28} name="home" color={color} />
@@ -63,6 +63,7 @@ export default function TabLayout() {
             ),
           }}
         />
+
         <Tabs.Screen
           name="portfolio"
           options={{
@@ -76,7 +77,7 @@ export default function TabLayout() {
                     colors={["#F21CC8", "#FD9FEB"]}
                     style={styles.gradientBackground}
                   >
-                    <FontAwesome size={33} name="briefcase" color="white" />
+                    <FontAwesome size={28} name="briefcase" color="white" />
                   </LinearGradient>
                 ) : (
                   <FontAwesome size={28} name="briefcase" color={color} />
@@ -85,6 +86,7 @@ export default function TabLayout() {
             ),
           }}
         />
+
         <Tabs.Screen
           name="createPortfolio"
           options={{
@@ -98,7 +100,7 @@ export default function TabLayout() {
                     colors={["#F21CC8", "#FD9FEB"]}
                     style={styles.gradientBackground}
                   >
-                    <FontAwesome size={33} name="plus-circle" color="white" />
+                    <FontAwesome size={28} name="plus-circle" color="white" />
                   </LinearGradient>
                 ) : (
                   <FontAwesome size={28} name="plus-circle" color={color} />
